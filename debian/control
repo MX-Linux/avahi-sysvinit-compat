@@ -1,11 +1,11 @@
-Source: network-manager-sysvinit-compat
+Source: avahi-sysvinit-compat
 Section: system
 Priority: optional
 Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=10)
 Standards-Version: 3.9.8
 
-Package: network-manager-sysvinit-compat
+Package: avahi-sysvinit-compat
 Architecture: all
 Depends:
-Description: sysvinit script for network-manager
+Description: sysvinit script for avahi-daemon
