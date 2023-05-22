@@ -1,0 +1,11 @@
+#! /bin/sh
+
+set -e
+
+if [ -x /etc/init.d/avahi-daemon ]; then
+  if [ -x /usr/sbin/update-rc.d ]; then
+    update-rc.d avahi-daemon defaults >/dev/null 2>&1
+  fi
+fi
+
+exit 0

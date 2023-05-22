@@ -1,0 +1,11 @@
+Source: network-manager-sysvinit-compat
+Section: system
+Priority: optional
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+
+Package: network-manager-sysvinit-compat
+Architecture: all
+Depends:
+Description: sysvinit script for network-manager
