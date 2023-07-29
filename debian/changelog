@@ -1,3 +1,9 @@
+avahi-sysvinit-compat (23.07.01) mx; urgency=medium
+
+  * add systemd check & exit
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 28 Jul 2023 20:39:37 -0400
+
 avahi-sysvinit-compat (23.05.01) mx; urgency=medium
 
   * Initial release.
